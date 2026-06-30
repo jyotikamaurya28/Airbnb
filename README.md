@@ -1,7 +1,8 @@
-# 🏡 Airbnb Clone
+# 🏡 Airbnb 
 
 A full-stack Airbnb-inspired web application that allows users to explore property listings, host accommodations, manage bookings, and enjoy a seamless booking experience. Built using the **MERN Stack** with a responsive and modern user interface.
 
+Watch Live- https://airbnb-iryb.onrender.com
 ---
 
 ## ✨ Features
@@ -173,9 +174,3 @@ The application will start on the default Vite development server, while the bac
 * 🌐 Dark Mode
 
 ---
-
-## 👩‍💻 Developer
-
-**Shreya Maurya**
-
-If you found this project helpful, don't forget to ⭐ the repository!
