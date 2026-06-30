@@ -1,68 +1,181 @@
-**Airbnb🏡**
-A full-stack Airbnb-inspired web application where users can browse listings, view property details, book stays, and 
-manage their bookings — built using the MERN-style stack (MongoDB, Express, React, Node.js).
+# 🏡 Airbnb Clone
 
-**Watch Live-** https://airbnb-iryb.onrender.com
+A full-stack Airbnb-inspired web application that allows users to explore property listings, host accommodations, manage bookings, and enjoy a seamless booking experience. Built using the **MERN Stack** with a responsive and modern user interface.
 
-**✨ Features**
-🔐 User authentication (signup/login, auth-aware UI rendering)
-🏘️ Browse and view property listings with images
-📝 Create, update, and delete listings (host functionality)
-📅 Booking system — create and cancel bookings
-🖼️ Image upload and management via Cloudinary
-⭐ Ratings system for listings
-🔍 Live search bar — shows matching properties as you type
-📱 Responsive, modern UI built with React and Tailwind CSS
-🔄 RESTful APIs with Express and MongoDB (Mongoose)
+---
 
+## ✨ Features
 
-**🛠️ Tech Stack**
-Frontend
---React (Vite)
---Tailwind CSS
+* 🔐 **User Authentication**
 
-Backend
---Node.js
---Express.js
---MongoDB with Mongoose
+  * Secure Sign Up & Login
+  * Authentication-aware UI
+  * Protected routes
 
-Other
---Cloudinary (image hosting)
---CORS-enabled REST API
+* 🏘️ **Property Listings**
 
+  * Browse all available properties
+  * View detailed property information
+  * Responsive image gallery
 
-**📂 Project Structure**
+* 📝 **Host Dashboard**
+
+  * Create new property listings
+  * Edit existing listings
+  * Delete listings
+
+* 📅 **Booking System**
+
+  * Book available properties
+  * Cancel existing bookings
+  * Manage booking history
+
+* 🖼️ **Image Upload**
+
+  * Cloudinary integration for secure image storage
+  * Fast image upload and retrieval
+
+* ⭐ **Ratings & Reviews**
+
+  * Rate listed properties
+  * View property ratings
+
+* 🔍 **Live Search**
+
+  * Search properties in real time
+  * Instant matching results while typing
+
+* 📱 **Responsive Design**
+
+  * Mobile-friendly interface
+  * Built with React and Tailwind CSS
+
+* 🔄 **RESTful API**
+
+  * Express.js backend
+  * MongoDB database with Mongoose
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js (Vite)
+* Tailwind CSS
+* React Router
+* Axios
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+### Other Technologies
+
+* Cloudinary (Image Hosting)
+* JWT Authentication
+* REST API
+* CORS
+* dotenv
+
+---
+
+## 📂 Project Structure
+
+```text
 Airbnb/
-├── backend/        # Express server, routes, controllers, models
-└── frontend/        # React + Tailwind client app
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   └── server.js
+│
+└── frontend/
+    ├── src/
+    ├── public/
+    └── vite.config.js
+```
 
-**🚀 Getting Started**
-Prerequisites
--Node.js installed
--MongoDB instance (local or Atlas)
--Cloudinary account (for image uploads)
+---
 
-**Backend Setup**
--bash cd backend
--npm install
+## 🚀 Getting Started
 
-**Create a .env file in backend/ with the following:**
+### Prerequisites
+
+* Node.js
+* MongoDB (Local or Atlas)
+* Cloudinary Account
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/jyotikamaurya28/Airbnb.git
+cd Airbnb
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file inside the **backend** folder.
+
+```env
 MONGO_URI=your_mongodb_connection_string
+
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+
 PORT=8080
+```
 
-**Run the server:**
-bashnpm start
+Start the backend server.
 
-**Frontend Setup**
--bashcd frontend
--npm install
--npm run dev
-The app should now be running locally — frontend on Vite's default port and backend on the configured PORT.
+```bash
+npm start
+```
 
-**📌 Future Improvements**
--Payment gateway integration
--Wishlist/favorites feature
--Filters (price, location, amenities)
+---
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The application will start on the default Vite development server, while the backend will run on the configured port.
+
+---
+
+## 🌟 Future Improvements
+
+* 💳 Payment Gateway Integration
+* ❤️ Wishlist / Favorites
+* 🎯 Advanced Filters (Price, Location, Amenities)
+* 🗺️ Google Maps Integration
+* 💬 Property Reviews & Comments
+* 📧 Email Notifications
+* 🔔 Booking Confirmation Alerts
+* 🌐 Dark Mode
+
+---
+
+## 👩‍💻 Developer
+
+**Shreya Maurya**
+
+If you found this project helpful, don't forget to ⭐ the repository!
